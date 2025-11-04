@@ -1,0 +1,26 @@
+.portfolio {
+    padding-top: clamp(1.875rem, 0.8036rem + 5.3571vw, 5.625rem);
+    padding-bottom: clamp(1.875rem, 0.4464rem + 7.1429vw, 6.875rem);
+    background: #f6f6f6;
+}
+
+.portfolio__container {
+    text-align: center;
+}
+
+.portfolio__title {
+    margin-bottom: clamp(1.5625rem, 1.1161rem + 2.2321vw, 3.125rem);
+}
+
+.portfolio__list {
+    display: grid;
+    gap: clamp(1.875rem, 0.625rem + 6.25vw, 6.25rem);
+}
+
+.portfolio__item {}
+
+.portfolio__item-img {
+    margin-bottom: clamp(1.25rem, 0.8036rem + 2.2321vw, 2.8125rem);
+}
+
+.portfolio__item-link {}

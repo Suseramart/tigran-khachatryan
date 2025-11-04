@@ -1,0 +1,36 @@
+.skills {
+    padding-top: clamp(1.875rem, 0.8036rem + 5.3571vw, 5.625rem);
+    padding-bottom: clamp(1.875rem, 0.4464rem + 7.1429vw, 6.875rem);
+}
+
+.skills__container {
+    text-align: center;
+}
+
+.skills__title {
+    margin-bottom: clamp(1.875rem, 1.1607rem + 3.5714vw, 4.375rem);
+}
+
+.skills__text {
+    margin-bottom: clamp(1.875rem, 1.1607rem + 3.5714vw, 4.375rem);
+
+}
+
+.skills__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 25px;
+}
+
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: clamp(2.1875rem, 1.2946rem + 4.4643vw, 5.3125rem);
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.skills__item-img {}
+
+.skills__item-title {}

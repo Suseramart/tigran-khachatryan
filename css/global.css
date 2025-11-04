@@ -1,0 +1,45 @@
+:root {
+    --black: #070707;
+    --font-family: "Gilroy-Bold", sans-serif;
+    --second-family: "Gilroy-Medium", sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+.none-scroll {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+.main {
+    min-height: 100%;
+}
