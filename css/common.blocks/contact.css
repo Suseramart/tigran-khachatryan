@@ -20,7 +20,7 @@
 .contact__button {
     padding: 13px 30px;
     border-radius: 30px;
-    background-color: var(--black);
+    background-color: grey;
     color: white;
     font-size: 18px;
     font-weight: 700;
