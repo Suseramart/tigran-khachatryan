@@ -296,7 +296,8 @@
 
     <dialog class="dialog">
         <button class="dialog__close">X</button>
-        <form class="dialog__form" action="https://api.web3forms.com/submit">
+        <form class="dialog__form" method="post" action="https://api.web3forms.com/submit">
+            <input type="hidden" name="redirect" value="https://suseramart.github.io/tigran-khachatryan/">
             <input type="hidden" name="access_key" value="3d5a29d5-178e-46b5-9d03-Odeaffbd2c96">
             <input class="dialog__input" type="text" name="Name" placeholder="Full Name">
             <input class="dialog__input" type="tel" name="Phone" placeholder="Phone">
