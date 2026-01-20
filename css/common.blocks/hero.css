@@ -21,6 +21,7 @@
 }
 
 .hero__title {
+    transform: translate(-20%, 0);
     font-size: clamp(1.625rem, 1.25rem + 1.875vw, 2.9375rem);
 
 }
@@ -28,6 +29,8 @@
 .hero__text {}
 
 .hero__img {
+
+    transform: translate(0, 20%);
     width: 100%;
     height: 390px;
 }

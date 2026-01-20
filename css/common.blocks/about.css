@@ -11,7 +11,9 @@
 .about__title {
     margin-bottom: 20px;
     font-weight: 800;
+    transform: translate(0, 20%);
 }
+
 
 .about__text:not(:last-child) {
     margin-bottom: 40px;
@@ -19,4 +21,14 @@
 
 .about__text about_light text {
     color: #828282;
+}
+
+.about__text:nth-child(odd) {
+    transform: translate(-20%, 0);
+
+}
+
+.about__text:nth-child(even) {
+    transform: translate(-20%, 0);
+
 }

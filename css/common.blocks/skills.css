@@ -9,9 +9,19 @@
 
 .skills__title {
     margin-bottom: clamp(1.875rem, 1.1607rem + 3.5714vw, 4.375rem);
+
+    .about__text:nth-child(odd) {
+        transform: translate(20%, 0);
+
+    }
 }
 
 .skills__text {
+    .about__text:nth-child(odd) {
+        transform: translate(20%, 0);
+
+    }
+
     margin-bottom: clamp(1.875rem, 1.1607rem + 3.5714vw, 4.375rem);
 
 }
@@ -28,6 +38,18 @@
     margin-bottom: clamp(2.1875rem, 1.2946rem + 4.4643vw, 5.3125rem);
     align-items: center;
     justify-content: space-between;
+
+}
+
+.skills__item:nth-child(1),
+.skills__item:nth-child(2) {
+    transform: translate(-20%, 0);
+
+}
+
+.skills__item:nth-child(3),
+.skills__item:nth-child(4) {
+    transform: translate(20%, 0);
 
 }
 
